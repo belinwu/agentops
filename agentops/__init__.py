@@ -8,9 +8,9 @@ from packaging import version
 
 from agentops.config import ConfigDict
 
+from .client import Client
 from .helpers import check_agentops_update
 from .session import Session
-from .client import Client
 
 # Create singleton instance
 _client = Client()
